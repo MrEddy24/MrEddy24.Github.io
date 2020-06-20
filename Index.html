@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cole Eddy</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="WebsiteResume.pdf" target="_blank" class="btn2"><i class="fa fa-download"></i>Resume</a>
+    </header>
+
+    <main>
+        <section class="majority" id="hero">
+            <div class="section-inner">
+                <div class="alert">
+                    <span class="closebtn3" onclick="this.parentElement.style.display='none';">&times;</span>
+                    Please view my website on a desktop for best results, Tablet & Mobile vesrion coming soon!
+                    <script>
+                        // Get all elements with class="closebtn"
+                        var close = document.getElementsByClassName("closebtn3");
+                        var i;
+
+                        // Loop through all close buttons
+                        for (i = 0; i < close.length; i++) {
+                            // When someone clicks on a close button
+                            close[i].onclick = function () {
+
+                                // Get the parent of <span class="closebtn"> (<div class="alert">)
+                                var div = this.parentElement;
+
+                                // Set the opacity of div to 0 (transparent)
+                                div.style.opacity = "0";
+
+                                // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+                                setTimeout(function () { div.style.display = "none"; }, 600);
+                            }
+                        }
+                    </script>
+                </div>
+                <h2>Cole Eddy</h2>
+                <h3>Economist, Statician, and IT</h3>
+                <img src="avataaars.png" class="profile-img" />
+                <h1>Hi, I'm Cole. Welcome to my world.</h1>
+                <p style="width: 100%; background: rgba(255, 255, 255, 0.5); padding: 20px; border: 3px solid black; border-radius: 25px;">
+                    Thank you for stopping by! I created this website for people like <strong>YOU</strong>, <br />
+                    who may be interested in finding out more about myself and what I have to offer.<br />
+                    Thus, I have coded my very own website using HTML, CSS and Javascript to display <br />
+                    my past/current projects. Please have a look around, and if you haven't done so already <br />
+                    view my resume by clicking the blue button in the header. Feel free to reach out to me <br />
+                    with any questions or comments at the bottom.
+                </p>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <fieldset>
+                <Legend>University of Nevada, Reno</Legend>
+                <div class="tile">
+                    <h1>B.S. in Economics</h1>
+                    <p class="tile_description">Overall GPA: 3.93</p>
+                    <p class="tile_description">Honors: Summa Cum Laude</p>
+                    <h2>Relevant Coursework:</h2>
+                    <p>STATA statistics software, OSL Regressions, Econometrics, <br /> Qualitative, Time Series and Porjection Forecasting, <br /> Monetary, fiscal and Supply Side Policies</p>
+                </div>
+                <div class="tile">
+                    <h1>B.S. in Information Systems</h1>
+                    <p class="tile_description">Overall GPA: 3.7</p>
+                    <p class="tile_description">Honors: Cum Laude</p>
+                    <h2>Relevant Coursework:</h2>
+                    <p>HTML, JavaScript, Python, Visualbasic & SQL,<br />Database desing/implementation <br />SCRUM & agile PM, Cybersecurity </p>
+                </div>
+                <h3 style="font-size: 1.5em;">Visit Website:<a href="https://www.unr.edu/" target="_blank" style="font-style: italic; font-size:1.2em;">unr.edu</a></h3>
+            </fieldset>
+        </section>
+
+        <section class="project" id="projects">
+            <div class="main">
+                <h1>Personal Projects</h1>
+                <hr>
+
+                <h2>PORTFOLIO (click images to view)</h2>
+
+                <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                    <button class="btn" onclick="filterSelection('UI')"> UI Design/Logos</button>
+                    <button class="btn" onclick="filterSelection('Coding')"> Coding</button>
+                    <button class="btn" onclick="filterSelection('Econ')"> Economic Reports</button>
+                </div>
+
+                <!-- Portfolio Gallery Grid -->
+                <div class="row">
+                    <div class="column UI">
+                        <div class="content">
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                            <img data-enlargable width="100" style="cursor: zoom-in; width:100%" height="110" src="TF2_OpeningScreens.png" />
+                            <h4>Table For 2 iOS App</h4>
+                            <p>Sign Up/Login screen for my Social iOS app concept</p>
+                        </div>
+                    </div>
+                    <div class="column UI">
+                        <div class="content">
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                            <img data-enlargable width="100" style="cursor: zoom-in; width:100%" height="110" src="TF2_MainScreens.png" />
+                            <h4>Table for 2 iOS App</h4>
+                            <p>Home page, profile page, message hub and settings</p>
+                        </div>
+                    </div>
+                    <div class="column UI">
+                        <div class="content">
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                            <img data-enlargable width="100" style="cursor: zoom-in; width:100%" height="110" src="smokey.jpg" />
+                            <h4>Big Smokey Brewery</h4>
+                            <p>San Francisco based Brewery, glass bottle sticker</p>
+                        </div>
+                    </div>
+                    <div class="column UI">
+                        <div class="content">
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                            <img data-enlargable width="100" style="cursor: zoom-in; width:100%" height="110" src="societea.jpg" />
+                            <h4>Societea Tea Co.</h4>
+                            <p>Concept design for a client starting a local Tea shop</p>
+                        </div>
+                    </div>
+
+                    <div class="column Coding">
+                        <div class="content">
+                            <a href="https://github.com/MrEddy24/Banking-App" target="_blank"><img src="BankingApp.jpg" alt="Car" style="width:100%" height="110"></a>
+                            <h4>Banking/ATM Application</h4>
+                            <p>Windows form written in VisualBasic, allows users to manage their financial accounts</p>
+                        </div>
+                    </div>
+                    <div class="column Coding">
+                        <div class="content">
+                            <a href="DotenERD.pdf" target="_blank"><img src="DD_ERD.png" alt="Car" style="width:100%" height="110"></a>
+                            <h4>Doten Diaries ERD/Database</h4>
+                            <p>ERD for Doten Diaries database to store all significant parts of the diary for research</p>
+                        </div>
+                    </div>
+                    <div class="column Coding">
+                        <div class="content">
+                            <img src="https://blog.deriscope.com/images/easyblog_articles/8/b2ap3_large_DsSimulatorFXOper.jpg" alt="Car" style="width:100%" height="110">
+                            <h4>Forex Excel Workbook</h4>
+                            <p>Excel workbook that allows myself to keep track of currency pairs and exchange rates</p>
+                        </div>
+                    </div>
+                    <div class="column Coding">
+                        <div class="content">
+                            <img src="https://cdn.wccftech.com/wp-content/uploads/2018/07/WCCFunrealengine4-740x429.jpg" alt="Car" style="width:100%" height="110">
+                            <h4>Unreal Engine 4 (FPS)</h4>
+                            <p>First person shooting game under development, coded using blueprints</p>
+                        </div>
+                    </div>
+
+                    <div class="column Econ">
+                        <div class="content">
+                            <a href="EconLVwater.pdf" target="_blank"><img src="https://media.lasvegassun.com/media/img/photos/2017/06/07/0915Pipeline01_t653.jpg?214bc4f9d9bd7c08c7d0f6599bb3328710e01e7b" alt="Car" style="width:100%" height="110"></a>
+                            <h4>Las Vegas Water Rights</h4>
+                            <p>Economics paper addressing the refusal of the Vegas pipeline with solutions to fix the current shortage</p>
+                        </div>
+                    </div>
+                    <div class="column Econ">
+                        <div class="content">
+                            <a href="StatisticalReport3.pdf" target="_blank"><img src="GDS_Chart.jpg" alt="Car" style="width:100%" height="110"></a>
+                            <h4>Statistical Report</h4>
+                            <p>Covers HDI, GDI, GII and the labor force differences based on gender in Laos, Singapore and US.</p>
+                        </div>
+                    </div>
+                    <div class="column Econ">
+                        <div class="content">
+                            <a href="StatisticalReport4.pdf" target="_blank"><img src="Labor_Force.jpg" alt="Car" style="width:100%" height="110"></a>
+                            <h4>Statistical Report</h4>
+                            <p>Gross domesitic saving, health expenditures and age dependency in Laos, Singapore and US.</p>
+                        </div>
+                    </div>
+                    <div class="column Econ">
+                        <div class="content">
+                            <a href="ESPN_WomenStatistics.pdf" target="_blank"><img src="espn.png" alt="Car" style="width:100%" height="110"></a>
+                            <h4>Statistics of ESPN's influence on Women Athletics</h4>
+                            <p>Research paper revealing statistics on women sports and the overall influence ESPN has.</p>
+                        </div>
+                    </div>
+                    <!-- END GRID -->
+                </div>
+            </div>
+            <script>
+                filterSelection("all")
+                function filterSelection(c) {
+                    var x, i;
+                    x = document.getElementsByClassName("column");
+                    if (c == "all") c = "";
+                    for (i = 0; i < x.length; i++) {
+                        w3RemoveClass(x[i], "show");
+                        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                    }
+                }
+
+                function w3AddClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+                    }
+                }
+
+                function w3RemoveClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        while (arr1.indexOf(arr2[i]) > -1) {
+                            arr1.splice(arr1.indexOf(arr2[i]), 1);
+                        }
+                    }
+                    element.className = arr1.join(" ");
+                }
+
+
+                // Add active class to the current button (highlight it)
+                var btnContainer = document.getElementById("myBtnContainer");
+                var btns = btnContainer.getElementsByClassName("btn");
+                for (var i = 0; i < btns.length; i++) {
+                    btns[i].addEventListener("click", function () {
+                        var current = document.getElementsByClassName("active");
+                        current[0].className = current[0].className.replace(" active", "");
+                        this.className += " active";
+                    });
+                }
+            </script>
+            <script>
+                $('img[data-enlargable]').addClass('img-enlargable').click(function () {
+                    var src = $(this).attr('src');
+                    var modal;
+                    function removeModal() { modal.remove(); $('body').off('keyup.modal-close'); }
+                    modal = $('<div>').css({
+                        background: 'RGBA(0,0,0,.5) url(' + src + ') no-repeat center',
+                        backgroundSize: 'contain',
+                        width: '100%', height: '100%',
+                        position: 'fixed',
+                        zIndex: '10000',
+                        top: '0', left: '0',
+                        cursor: 'zoom-out'
+                    }).click(function () {
+                        removeModal();
+                    }).appendTo('body');
+                    //handling ESC
+                    $('body').on('keyup.modal-close', function (e) {
+                        if (e.key === 'Escape') { removeModal(); }
+                    });
+                });
+            </script>
+
+
+        </section>
+
+        <section class="contact" id="contact">
+            <div>
+                <h1 syle="margin-top:">Contact Me </h1>
+                <a href="mailto:coleeddy@charter.net" style="padding: 40px; font-size: 60px; width: 140px; height: 140px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; " class="fa fa-envelope-o"></a>
+                <h2>Or Find me Here</h2>
+                <a href="https://www.linkedin.com/in/cole-eddy/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://github.com/MrEddy24" target="_blank" class="fa fa-github"></a>
+                <a href="https://www.instagram.com/coleeddy/?hl=en" target="_blank" class="fa fa-instagram"></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        © Copyright Cole Eddy, 2020
+    </footer>
+</body>
+</html>

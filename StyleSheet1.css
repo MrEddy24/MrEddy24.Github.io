@@ -28,7 +28,7 @@
         }
 
         header nav {
-            margin-top: 15px;
+            margin-top: 4.5%;
         }
 
         header ul {
@@ -36,7 +36,8 @@
         }
 
         header li {
-            margin-left: 25px;
+            margin-left: 15px;
+            margin-right: 0px;
             width: 100%;
         }
 
@@ -53,7 +54,7 @@
         padding: 12px 10px;
         cursor: pointer;
         font-size: 12px;
-        margin-left: 20px;
+        margin-left: 7%;
         margin-top: 7px;
         margin-bottom: 2px;
         height: 35px;
@@ -77,7 +78,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-size: cover;
+        background-size: auto;
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -122,12 +123,12 @@
         border-width: 3px;
         color: black;
         display: inline-block;
-        height: 245px;
+        height: 255px;
         list-style-type: none;
         margin: 0% 5% 0% 5%;
         position: center;
         text-align: center;
-        width: 35%;
+        width: 37%;
         border-radius: 25px;
         box-shadow: 10px 10px 5px #888888;
         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #003366), color-stop(1, #999999));
@@ -150,7 +151,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-size: cover;
+        background-size: auto;
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -181,7 +182,7 @@
     }
 
     #education legend {
-        font-size: 125%;
+        font-size: 100%;
         font-weight: bold;
         color: #003366;
   
@@ -234,9 +235,7 @@
         font-size: 1em;
     }
 
-    /*.row {
-        margin: 8px -16px;
-    }*/
+
 
         /* Add padding BETWEEN each column (if you want) */
         .row,
@@ -262,7 +261,7 @@
     .content {
         background-color: #b9b9b9;
         padding: 2px;
-        height: 210px;
+        height: 225px;
     }
 
     /* The "show" class is added to the filtered elements */
@@ -288,8 +287,8 @@
     .btn {
         margin-left: .5%;
         height:30px;
-        width: 80px;
-        font-size: .4em;
+        width: 23%;
+        font-size: .3em;
         border: none;
         outline: none;
         padding: 12px 16px;
@@ -375,7 +374,7 @@
         text-align: center;
         padding: 50px;
         background-image: linear-gradient(to bottom right,black, gray);
-        font-size: 1.125em;
+        font-size: .95em;
         color: white;
     }
 

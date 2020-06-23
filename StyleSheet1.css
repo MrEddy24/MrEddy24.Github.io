@@ -1,74 +1,462 @@
-﻿.alert {
-    width: 100%;
-    padding: 20px;
-    background-color: #ff5f5f; /* Red */
-    border-radius: 25px;
-    color: white;
-    margin-top: 4.1%;
-}
+﻿/*Mobile Phone*/
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
 
-.closebtn3 {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
+    body {
+        background-image: url('https://www.aat-corp.com/wp-content/uploads/2019/06/pcb.jpg');
+        background-repeat: repeat;
+        background-attachment: fixed;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: Arial;
+    }
 
-.closebtn3:hover {
-    color: black;
-}
-
+    header {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background-image: linear-gradient(to bottom right, black, gray);
+    }
 
 
-html {
-    height: 100%;
-    width: 100%;
-}
+        header * {
+            display: inline;
+            height: 50px;
+        }
 
-/*Contact Emoticons*/
-#contact .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 70px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
+        header nav {
+            margin-top: 15px;
+        }
+
+        header ul {
+            padding: 0;
+        }
+
+        header li {
+            margin-left: 25px;
+            width: 100%;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+        }
+
+    .btn2 {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 12px 10px;
+        cursor: pointer;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 7px;
+        margin-bottom: 2px;
+        height: 35px;
+        width: 80px;
+    }
+
+        .btn2:hover {
+            background-color: RoyalBlue;
+        }
+
+    #hero .profile-img {
+        width: 75%;
+    }
+
+    .majority {
+        margin-top: 5%;
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #hero h1 {
+        font-size: 1.2em;
+    }
+
+    #hero h2 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    #hero h3 {
+        font-size: 1.5em;
+        font-weight: 300;
+    }
+
+    #hero p {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 10px;
+        border: 3px solid black;
+        border-radius: 25px;
+        font-size: 12px;
+        font-weight: 300;
+        font-family: Arial;
+    }
+
+    #hero {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://cdn.hipwallpaper.com/i/43/60/ASxU62.jpg');
+        width: 100%;
+        height: 100%;
+    }
+
+    /*Education Tiles*/
+    .tile {
+        border-style: solid;
+        border-width: 3px;
+        color: black;
+        display: inline-block;
+        height: 245px;
+        list-style-type: none;
+        margin: 0% 5% 0% 5%;
+        position: center;
+        text-align: center;
+        width: 35%;
+        border-radius: 25px;
+        box-shadow: 10px 10px 5px #888888;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #003366), color-stop(1, #999999));
+        background-image: linear-gradient(-28deg, #003366 0%, #999999 100%);
+        vertical-align: top;
+        text-align: center;
+    }
+
+    .tile_description {
+        color: white;
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    .education {
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #education fieldset {
+        margin-top:2.5%;
+        width: 90%
+    }
+
+    #education h1 {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    #education h2 {
+        font-size: 0.7em;
+        font-weight: normal;
+    }
+
+    #education h3 {
+        font-size: 1em;
+    }
+
+    #education a {
+        font-style: italic;
+        font-size: 1em;
+    }
+
+    #education legend {
+        font-size: 125%;
+        font-weight: bold;
+        color: #003366;
+  
+    }
+
+    #education p {
+        color: white;
+        font-size: 0.55em;
+        font-style: italic;
+    }
+
+    #education {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://storage.googleapis.com/cdn.thenevadaindependent.com/2018/12/c8120fe8-university-of-nevada-reno-2017-campus-image.jpg');
+        width: 100%;
+        height: 100%;
+    }
+
+    .project {
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #projects {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://guardian.ng/wp-content/uploads/2018/01/town-planning.jpg');
+        width: 100%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Center website */
+    .main {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    #projects h1 {
+        font-size: 1.5em;
+        word-break: break-all;
+    }
+
+    #projects h2 {
+        font-size: 1em;
+    }
+
+    /*.row {
+        margin: 8px -16px;
+    }*/
+
+        /* Add padding BETWEEN each column (if you want) */
+        .row,
+        .row > .column {
+            padding: 2px;
+        }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 33.33%;
+        display: none; /* Hide columns by default */
+    }
+
+    /* Clear floats after rows */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Content */
+    .content {
+        background-color: #b9b9b9;
+        padding: 2px;
+        height: 210px;
+    }
+
+    /* The "show" class is added to the filtered elements */
+    .show {
+        display: block;
+    }
+
+    #projects img {
+        cursor: zoom-in;
+        width: 100%;
+        height: 50px;
+    }
+
+    #projects h4 {
+        font-size: .95em;
+    }
+
+    #projects p {
+        font-size: .7em;
+    }
+
+    /* Style the buttons */
+    .btn {
+        margin-left: .5%;
+        height:30px;
+        width: 80px;
+        font-size: .4em;
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+        /* Add a grey background color on mouse-over */
+        .btn:hover {
+            background-color: #ddd;
+        }
+
+        /* Add a dark background color to the active button */
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+
+    .contact {
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #contact h1 {
+        font-size: 2em;
+    }
+
+    #contact {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://www.oceankayaking.com/wp-content/uploads/2017/01/Email-Newsletter-Background-Section.jpg');
+        width: 100%;
+    }
+
+    /*Contact Emoticons*/
+    #contact .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 70px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+
+        #contact .fa:hover {
+            opacity: 0.5;
+        }
+
+    .fa-instagram {
+        background: #9b6954;
+        color: white;
+    }
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #00ACEE;
+        color: white;
+    }
+
+    .fa-envelope-o {
+        background: #fea4ff;
+        color: white;
+    }
+
+    .fa-github {
+        background: black;
+        color: white;
+    }
+
+    footer {
+        text-align: center;
+        padding: 50px;
+        background-image: linear-gradient(to bottom right,black, gray);
+        font-size: 1.125em;
+        color: white;
+    }
+
+    
+
     
 }
 
-    #contact .fa:hover {
-        opacity:0.5;
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+
+    .alert {
+        width: 100%;
+        padding: 20px;
+        background-color: #ff5f5f; /* Light Red */
+        border-radius: 25px;
+        color: white;
+        margin-top: 4.1%;
     }
 
-.fa-instagram {
-    background: #9b6954;
-    color: white;
-}
+    .closebtn3 {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
 
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
+        .closebtn3:hover {
+            color: black;
+        }
 
-.fa-twitter {
-    background: #00ACEE;
-    color: white;
-}
 
-.fa-envelope-o {
-    background: #fea4ff;
-    color: white;
-}
 
-.fa-github {
-    background: black;
-    color: white;
-}
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*Contact Emoticons*/
+    #contact .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 70px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+
+        #contact .fa:hover {
+            opacity: 0.5;
+        }
+
+    .fa-instagram {
+        background: #9b6954;
+        color: white;
+    }
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #00ACEE;
+        color: white;
+    }
+
+    .fa-envelope-o {
+        background: #fea4ff;
+        color: white;
+    }
+
+    .fa-github {
+        background: black;
+        color: white;
+    }
 
 
 
@@ -78,311 +466,344 @@ html {
         box-sizing: border-box;
     }
 
-body {
-    height:100%;
-    width: 100%;
-    background-image: url('https://www.aat-corp.com/wp-content/uploads/2019/06/pcb.jpg');
-    background-repeat: repeat;
-    background-attachment: fixed;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: Arial;
-}
-
-
-.main {
-    max-width: 1000px;
-    min-width: 200px;
-    margin: auto;
-}
-
-h1 {
-    font-size: 35px;
-    word-break: break-all;
-}
-
-.row {
-    margin: 8px -16px;
-}
-
- /*Project Container*/
-    .row,
-    .row > .column {
-        padding: .7%;
+    body {
+        height: 100%;
+        width: 100%;
+        background-image: url('https://www.aat-corp.com/wp-content/uploads/2019/06/pcb.jpg');
+        background-repeat: repeat;
+        background-attachment: fixed;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: Arial;
     }
 
 
-.column {
-    float: left;
-    width: 25%;
-    display: none; 
-}
-
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-.content {
-    background-color: #b9b9b9;
-    padding: 5px;
-    
-}
-
-/*Interactive Menu*/
-.show {
-    display: block;
-}
-
-
-.btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: white;
-    cursor: pointer;
-}
-
-    .btn:hover {
-        background-color: #ddd;
+    .main {
+        max-width: 1000px;
+        min-width: 200px;
+        margin: auto;
     }
 
-    .btn.active {
-        background-color: #666;
+    h1 {
+        font-size: 35px;
+        word-break: break-all;
+    }
+
+    .row {
+        margin: 8px -16px;
+    }
+
+        /*Project Container*/
+        .row,
+        .row > .column {
+            padding: .7%;
+        }
+
+
+    .column {
+        float: left;
+        width: 25%;
+        display: none;
+    }
+
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    .content {
+        background-color: #b9b9b9;
+        padding: 5px;
+    }
+
+    #projects img {
+        cursor: zoom-in;
+        width: 100%;
+        height: 110px;
+    }
+
+    /*Interactive Menu*/
+    .show {
+        display: block;
+    }
+
+
+    .btn {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+        .btn:hover {
+            background-color: #ddd;
+        }
+
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+        
+        
+    /*Education Tiles*/
+    .tile {
+        border-style: solid;
+        border-width: 3px;
+        color: black;
+        display: inline-block;
+        height: 415px;
+        list-style-type: none;
+        margin: 10px 40px 10px 20px;
+        position: center;
+        text-align: center;
+        width: 43%;
+        border-radius: 25px;
+        box-shadow: 10px 10px 5px #888888;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #003366), color-stop(1, #999999));
+        background-image: linear-gradient(-28deg, #003366 0%, #999999 100%);
+        vertical-align: top;
+        text-align: center;
+    }
+
+    .tile_description {
+        color: white;
+        font-size: 2.3em;
+        font-style: italic;
+    }
+
+    .btn2 {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 18px;
+        margin-left: 35px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        height: 40px;
+    }
+
+        .btn2:hover {
+            background-color: RoyalBlue;
+        }
+
+
+
+
+    header {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background-image: linear-gradient(to bottom right, black, gray);
+    }
+
+
+        header * {
+            display: inline;
+            height: 50px;
+        }
+
+        header nav {
+            margin-top: 15px;
+            margin-left: 5px;
+            
+        }
+
+        header ul {
+            padding: 0;
+        }
+
+        header li {
+            margin-left: 25px;
+            width: 100%;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            font-size: 8px;
+        }
+
+    .project {
+        height: 120%;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .contact {
+        height: 70vh;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+
+
+    .education {
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+
+    .majority {
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #contact h1 {
+        font-size: 2.8125em;
+    }
+
+
+
+    #hero .profile-img {
+        width: 27%;
+    }
+
+    footer {
+        text-align: center;
+        padding: 3.125em;
+        background-image: linear-gradient(to bottom right,black, gray);
+        font-size: 1.125em;
         color: white;
     }
 
-/*Education Tiles*/
-.tile {
-    border-style: solid;
-    border-width: 3px;
-    color: black;
-    display: inline-block;
-    height: 460px;
-    list-style-type: none;
-    margin: 10px 40px 10px 20px;
-    position: center;
-    text-align: center;
-    width: 37%;
-    border-radius: 25px;
-    box-shadow: 10px 10px 5px #888888;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #003366), color-stop(1, #999999));
-    background-image: linear-gradient(-28deg, #003366 0%, #999999 100%);
-    vertical-align: top;
-    text-align: center;
-}
+    #hero h1 {
+        font-size: 3em;
+    }
 
-.tile_description {
-    color: white;
-    font-size: 2.3em;
-    font-style: italic;
-}
+    #hero h2 {
+        font-size: 4.5em;
+        font-weight: bold;
+    }
 
-.btn2 {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 18px;
-    margin-left: 35px;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    height:40px;
-}
+    #hero h3 {
+        font-size: 2.5em;
+        font-weight: 300;
+    }
 
-.btn2:hover {
-    background-color: RoyalBlue;
-}
+    #hero p {
+        margin-left:5%;
+        margin-right:5%;
+        width: 90%;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        border: 3px solid black;
+        border-radius: 25px;
+        font-size: 1.5em;
+        font-weight: 300;
+        font-family: Arial
+    }
 
+    #education h1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
 
+    #education h2 {
+        font-size: 2.1em;
+        font-weight: bold;
+    }
 
+    #education h3 {
+        font-size: 1.5em;
+    }
 
-header {
-    display: flex;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    background-image: linear-gradient(to bottom right, black, gray);
-}
+    #eduaction a {
+        font-style: italic;
+        font-size: 1.2em;
+    }
 
+    #education legend {
+        font-size: 350%;
+        font-weight: bold;
+        color: #003366;
+    }
 
-header * {
-    display: inline;
-    height: 50px;
-    
-    
-}
+    #education fieldset {
+        margin-top: 2.5%;
+        width: 90%
+    }
 
-header nav {
-    margin-top:15px;
-}
+    #education p {
+        color: white;
+        font-size: 1.2em;
+        font-style: italic;
+    }
 
-header ul {
-    
-    padding:0;
-        
-}
+    section h2 {
+        font-size: 2.5em;
+    }
 
-header li {
-    margin-left: 25px;
-    width: 100%;
-       
+    section h3 {
+        font-size: 1.5em;
+    }
 
-}
+    header a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.0625em;
+    }
 
-.project {
-    height: 120%;
-    width: 100%;
-    border: 1px solid black;
-    display: flex;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+    #hero {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://cdn.hipwallpaper.com/i/43/60/ASxU62.jpg');
+        width: 100%;
+    }
 
-.contact {
-    height: 70vh;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+    #education {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://storage.googleapis.com/cdn.thenevadaindependent.com/2018/12/c8120fe8-university-of-nevada-reno-2017-campus-image.jpg');
+        width: 100%;
+    }
+
+    #projects {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://guardian.ng/wp-content/uploads/2018/01/town-planning.jpg');
+        width: 100%;
+    }
+
+    #contact {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://www.oceankayaking.com/wp-content/uploads/2017/01/Email-Newsletter-Background-Section.jpg');
+        width: 100%;
+    }
 
 
 
-.education {
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
-
-.majority {
-    height: 100%;
-    width: 100%;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-#contact h1 {
-    font-size:2.8125em;
-}
-
-
-
-#hero .profile-img {
-    width: 27%;
-}
-
-footer {
-    text-align: center;
-    padding: 3.125em;
-    background-image: linear-gradient(to bottom right,black, gray);
-    font-size: 1.125em;
-    color: white;
-}
-
-#hero h1 {
-    font-size: 3em;
-}
-
-#hero h2 {
-    font-size: 4.5em;
-    font-weight: bold;
-}
-
-#hero h3 {
-    font-size: 2.5em;
-    font-weight:300;
-}
-
-#hero p {
-    font-size: 1.5em;
-    font-weight: 300;
-    font-family: Arial
-}
-
-#education h1 {
-    font-size: 3em;
-    font-weight: bold;
-}
-
-#education h2 {
-    font-size: 2.1em;
-    font-weight: bold;
-}
-
-#education legend {
-    font-size: 350%;
-    font-weight: bold;
-    color: #003366;
-}
-
-#education p {
-    color: white;
-    font-size: 1.2em;
-    font-style: italic;
-}
-
-section h2 {
-    font-size: 2.5em;
-}
-
-section h3 {
-    font-size: 1.5em;
-}
-
-header a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.0625em;
-    
-}
-
-#hero {
-    background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://cdn.hipwallpaper.com/i/43/60/ASxU62.jpg');
-    width: 100%;
-}
-
-#education {
-    background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://storage.googleapis.com/cdn.thenevadaindependent.com/2018/12/c8120fe8-university-of-nevada-reno-2017-campus-image.jpg');
-    width: 100%;
-}
-
-#projects {
-    background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://guardian.ng/wp-content/uploads/2018/01/town-planning.jpg');
-    width: 100%;
-}
-
-#contact {
-    background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://www.oceankayaking.com/wp-content/uploads/2017/01/Email-Newsletter-Background-Section.jpg');
-    width: 100%;
 }

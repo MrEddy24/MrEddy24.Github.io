@@ -24,41 +24,16 @@
     <main>
         <section class="majority" id="hero">
             <div class="section-inner">
-                <div class="alert">
-                    <span class="closebtn3" onclick="this.parentElement.style.display='none';">&times;</span>
-                    Please view my website on a desktop for best results, Tablet & Mobile version coming soon!
-                    <script>
-                        // Get all elements with class="closebtn"
-                        var close = document.getElementsByClassName("closebtn3");
-                        var i;
-
-                        // Loop through all close buttons
-                        for (i = 0; i < close.length; i++) {
-                            // When someone clicks on a close button
-                            close[i].onclick = function () {
-
-                                // Get the parent of <span class="closebtn"> (<div class="alert">)
-                                var div = this.parentElement;
-
-                                // Set the opacity of div to 0 (transparent)
-                                div.style.opacity = "0";
-
-                                // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
-                                setTimeout(function () { div.style.display = "none"; }, 600);
-                            }
-                        }
-                    </script>
-                </div>
                 <h2>Cole Eddy</h2>
                 <h3>Economist, Statician, and IT</h3>
                 <img src="avataaars.png" class="profile-img" />
                 <h1>Hi, I'm Cole. Welcome to my world.</h1>
-                <p style="width: 100%; background: rgba(255, 255, 255, 0.5); padding: 20px; border: 3px solid black; border-radius: 25px;">
-                    Thank you for stopping by! I created this website for people like <strong>YOU</strong>, <br />
-                    who may be interested in finding out more about myself and what I have to offer.<br />
-                    Thus, I have coded my very own website using HTML, CSS and Javascript to display <br />
-                    my past/current projects. Please have a look around, and if you haven't done so already <br />
-                    view my resume by clicking the blue button in the header. Feel free to reach out to me <br />
+                <p>
+                    Thank you for stopping by! I created this website for people like <strong>YOU</strong>, 
+                    who may be interested in finding out more about myself and what I have to offer.
+                    Thus, I have coded my very own website using HTML, CSS and Javascript to display 
+                    my past and current projects. Please have a look around, and if you haven't done so already 
+                    view my resume by clicking the blue button in the header. Feel free to reach out to me 
                     with any questions or comments at the bottom.
                 </p>
             </div>
@@ -72,16 +47,16 @@
                     <p class="tile_description">Overall GPA: 3.93</p>
                     <p class="tile_description">Honors: Summa Cum Laude</p>
                     <h2>Relevant Coursework:</h2>
-                    <p>STATA statistics software, OSL Regressions, Econometrics, <br /> Qualitative, Time Series and Porjection Forecasting, <br /> Monetary, fiscal and Supply Side Policies</p>
+                    <p>STATA statistics software, OSL Regressions, Econometrics. Qualitative, Time Series and Porjection Forecasting. Monetary, fiscal and Supply Side Policies.</p>
                 </div>
                 <div class="tile">
                     <h1>B.S. in Information Systems</h1>
                     <p class="tile_description">Overall GPA: 3.7</p>
                     <p class="tile_description">Honors: Cum Laude</p>
                     <h2>Relevant Coursework:</h2>
-                    <p>HTML, JavaScript, Python, Visualbasic & SQL,<br />Database desing/implementation <br />SCRUM & agile PM, Cybersecurity </p>
+                    <p>HTML, JavaScript, Python, Visualbasic & SQL. Database desing/implementation. SCRUM & agile PM. Cybersecurity & Compliance.  </p>
                 </div>
-                <h3 style="font-size: 1.5em;">Visit Website:<a href="https://www.unr.edu/" target="_blank" style="font-style: italic; font-size:1.2em;">unr.edu</a></h3>
+                <h3>Visit Website:<a href="https://www.unr.edu/" target="_blank">unr.edu</a></h3>
             </fieldset>
         </section>
 
@@ -96,7 +71,7 @@
                     <button class="btn active" onclick="filterSelection('all')"> Show all</button>
                     <button class="btn" onclick="filterSelection('UI')"> UI Design/Logos</button>
                     <button class="btn" onclick="filterSelection('Coding')"> Coding</button>
-                    <button class="btn" onclick="filterSelection('Econ')"> Economic Reports</button>
+                    <button class="btn" onclick="filterSelection('Econ')"> Econ Reports</button>
                 </div>
 
                 <!-- Portfolio Gallery Grid -->
@@ -104,7 +79,7 @@
                     <div class="column UI">
                         <div class="content">
                             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-                            <img data-enlargable width="100" style="cursor: zoom-in; width:100%" height="110" src="TF2_OpeningScreens.png" />
+                            <img data-enlargable width="100" src="TF2_OpeningScreens.png" />
                             <h4>Table For 2 iOS App</h4>
                             <p>Sign Up/Login screen for my Social iOS app concept</p>
                         </div>
@@ -112,7 +87,7 @@
                     <div class="column UI">
                         <div class="content">
                             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-                            <img data-enlargable width="100" style="cursor: zoom-in; width:100%" height="110" src="TF2_MainScreens.png" />
+                            <img data-enlargable width="100"  src="TF2_MainScreens.png" />
                             <h4>Table for 2 iOS App</h4>
                             <p>Home page, profile page, message hub and settings</p>
                         </div>
@@ -120,7 +95,7 @@
                     <div class="column UI">
                         <div class="content">
                             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-                            <img data-enlargable width="100" style="cursor: zoom-in; width:100%" height="110" src="smokey.jpg" />
+                            <img data-enlargable width="100" src="smokey.jpg" />
                             <h4>Big Smokey Brewery</h4>
                             <p>San Francisco based Brewery, glass bottle sticker</p>
                         </div>
@@ -128,7 +103,7 @@
                     <div class="column UI">
                         <div class="content">
                             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-                            <img data-enlargable width="100" style="cursor: zoom-in; width:100%" height="110" src="societea.jpg" />
+                            <img data-enlargable width="100" src="societea.jpg" />
                             <h4>Societea Tea Co.</h4>
                             <p>Concept design for a client starting a local Tea shop</p>
                         </div>
@@ -136,28 +111,28 @@
 
                     <div class="column Coding">
                         <div class="content">
-                            <a href="https://github.com/MrEddy24/Banking-App" target="_blank"><img src="BankingApp.jpg" alt="Car" style="width:100%" height="110"></a>
+                            <a href="https://github.com/MrEddy24/Banking-App" target="_blank"><img src="BankingApp.jpg" alt="Car"></a>
                             <h4>Banking/ATM Application</h4>
                             <p>Windows form written in VisualBasic, allows users to manage their financial accounts</p>
                         </div>
                     </div>
                     <div class="column Coding">
                         <div class="content">
-                            <a href="DotenERD.pdf" target="_blank"><img src="DD_ERD.png" alt="Car" style="width:100%" height="110"></a>
+                            <a href="DotenERD.pdf" target="_blank"><img src="DD_ERD.png" alt="Car"></a>
                             <h4>Doten Diaries ERD/Database</h4>
                             <p>ERD for Doten Diaries database to store all significant parts of the diary for research</p>
                         </div>
                     </div>
                     <div class="column Coding">
                         <div class="content">
-                            <img src="https://blog.deriscope.com/images/easyblog_articles/8/b2ap3_large_DsSimulatorFXOper.jpg" alt="Car" style="width:100%" height="110">
+                            <img src="https://blog.deriscope.com/images/easyblog_articles/8/b2ap3_large_DsSimulatorFXOper.jpg" alt="Car">
                             <h4>Forex Excel Workbook</h4>
                             <p>Excel workbook that allows myself to keep track of currency pairs and exchange rates</p>
                         </div>
                     </div>
                     <div class="column Coding">
                         <div class="content">
-                            <img src="https://cdn.wccftech.com/wp-content/uploads/2018/07/WCCFunrealengine4-740x429.jpg" alt="Car" style="width:100%" height="110">
+                            <img src="https://cdn.wccftech.com/wp-content/uploads/2018/07/WCCFunrealengine4-740x429.jpg" alt="Car">
                             <h4>Unreal Engine 4 (FPS)</h4>
                             <p>First person shooting game under development, coded using blueprints</p>
                         </div>
@@ -165,29 +140,29 @@
 
                     <div class="column Econ">
                         <div class="content">
-                            <a href="EconLVwater.pdf" target="_blank"><img src="https://media.lasvegassun.com/media/img/photos/2017/06/07/0915Pipeline01_t653.jpg?214bc4f9d9bd7c08c7d0f6599bb3328710e01e7b" alt="Car" style="width:100%" height="110"></a>
+                            <a href="EconLVwater.pdf" target="_blank"><img src="https://media.lasvegassun.com/media/img/photos/2017/06/07/0915Pipeline01_t653.jpg?214bc4f9d9bd7c08c7d0f6599bb3328710e01e7b" alt="Car"></a>
                             <h4>Las Vegas Water Rights</h4>
                             <p>Economics paper addressing the refusal of the Vegas pipeline with solutions to fix the current shortage</p>
                         </div>
                     </div>
                     <div class="column Econ">
                         <div class="content">
-                            <a href="StatisticalReport3.pdf" target="_blank"><img src="GDS_Chart.jpg" alt="Car" style="width:100%" height="110"></a>
+                            <a href="StatisticalReport3.pdf" target="_blank"><img src="GDS_Chart.jpg" alt="Car"></a>
                             <h4>Statistical Report</h4>
                             <p>Covers HDI, GDI, GII and the labor force differences based on gender in Laos, Singapore and US.</p>
                         </div>
                     </div>
                     <div class="column Econ">
                         <div class="content">
-                            <a href="StatisticalReport4.pdf" target="_blank"><img src="Labor_Force.jpg" alt="Car" style="width:100%" height="110"></a>
+                            <a href="StatisticalReport4.pdf" target="_blank"><img src="Labor_Force.jpg" alt="Car"></a>
                             <h4>Statistical Report</h4>
                             <p>Gross domesitic saving, health expenditures and age dependency in Laos, Singapore and US.</p>
                         </div>
                     </div>
                     <div class="column Econ">
                         <div class="content">
-                            <a href="ESPN_WomenStatistics.pdf" target="_blank"><img src="espn.png" alt="Car" style="width:100%" height="110"></a>
-                            <h4>Statistics of ESPN's influence on Women Athletics</h4>
+                            <a href="ESPN_WomenStatistics.pdf" target="_blank"><img src="espn.png" alt="Car"></a>
+                            <h4>Statistics on ESPN</h4>
                             <p>Research paper revealing statistics on women sports and the overall influence ESPN has.</p>
                         </div>
                     </div>

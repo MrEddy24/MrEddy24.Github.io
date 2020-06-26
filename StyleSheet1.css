@@ -123,12 +123,12 @@
         border-width: 3px;
         color: black;
         display: inline-block;
-        height: 255px;
+        height: 270px;
         list-style-type: none;
         margin: 0% 5% 0% 5%;
         position: center;
         text-align: center;
-        width: 37%;
+        width: 39%;
         border-radius: 25px;
         box-shadow: 10px 10px 5px #888888;
         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #003366), color-stop(1, #999999));

@@ -28,7 +28,7 @@
         }
 
         header nav {
-            margin-top: 4.5%;
+            margin-top: 15px;
         }
 
         header ul {
@@ -36,7 +36,7 @@
         }
 
         header li {
-            margin-left: 15px;
+            margin-left: 5px;
             margin-right: 0px;
             width: 100%;
         }
@@ -54,7 +54,7 @@
         padding: 12px 10px;
         cursor: pointer;
         font-size: 12px;
-        margin-left: 7%;
+        margin-left: 16px;
         margin-top: 7px;
         margin-bottom: 2px;
         height: 35px;
@@ -115,6 +115,62 @@
         background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://cdn.hipwallpaper.com/i/43/60/ASxU62.jpg');
         width: 100%;
         height: 100%;
+    }
+
+    /*Experience Section*/
+
+    .experience {
+        height: 75vh;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        /*background-attachment: fixed;*/
+    }
+
+    #experience h2 {
+        font-size: 21px;
+    }
+
+    #experience h1 {
+        font-size: 18px;
+        
+    }
+
+    #experience h3 {
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+    #experience2 h2 {
+        font-size: 21px;
+    }
+
+    #experience2 h1 {
+        font-size: 18px;
+    }
+
+    #experience2 h3 {
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+
+
+
+    #experience {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://i0.wp.com/thisisreno.com/wp-content/uploads/2013/06/AtlantisExterior.jpg');
+        width: 100%;
+    }
+
+    #experience2 {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://oddslifenetstorage.blob.core.windows.net/casinobeats/2019/07/18319130_1344303212322120_5747326185041809828_o-e1564053600710.jpg');
+        width: 100%;
     }
 
     /*Education Tiles*/
@@ -578,6 +634,33 @@
         font-style: italic;
     }
 
+    /*Experience Tiles*/
+    /*#experience .tile {
+        border-style: solid;
+        border-width: 3px;
+        color: black;
+        display: inline-block;
+        height: 415px;
+        list-style-type: none;
+        margin: 10px 40px 10px 20px;
+        position: center;
+        text-align: center;
+        width: 43%;
+        border-radius: 25px;
+        box-shadow: 10px 10px 5px #888888;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #674eac), color-stop(1, #f51397));
+        background-image: linear-gradient(0deg, #674eac 0%, #f51397 100%);
+        vertical-align: top;
+        text-align: center;
+    }
+
+    #experience .tile_description {
+        color: white;
+        font-size: 2.3em;
+        font-style: italic;
+    }*/
+    
+
     .btn2 {
         background-color: DodgerBlue;
         border: none;
@@ -648,7 +731,7 @@
     }
 
     .contact {
-        height: 70vh;
+        height: 50vh;
         border: 1px solid black;
         display: flex;
         justify-content: center;
@@ -663,7 +746,7 @@
 
 
     .education {
-        height: 100%;
+        height: 75vh;
         width: 100%;
         border: 1px solid black;
         display: flex;
@@ -676,6 +759,19 @@
         background-attachment: fixed;
     }
 
+    .experience {
+        height: 75vh;
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 
     .majority {
         height: 100%;
@@ -788,6 +884,16 @@
 
     #hero {
         background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://cdn.hipwallpaper.com/i/43/60/ASxU62.jpg');
+        width: 100%;
+    }
+
+    #experience {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://i0.wp.com/thisisreno.com/wp-content/uploads/2013/06/AtlantisExterior.jpg');
+        width: 100%;
+    }
+
+    #experience2 {
+        background-image: linear-gradient(rgba(255,255,255,0.45),rgba(255,255,255,0.45)), url('https://oddslifenetstorage.blob.core.windows.net/casinobeats/2019/07/18319130_1344303212322120_5747326185041809828_o-e1564053600710.jpg');
         width: 100%;
     }
 
